@@ -1,0 +1,16 @@
+PROGRAM Program3
+
+DECLARE
+	INTEGER x
+	INTEGER y
+	INTEGER z
+
+BEGIN
+	PRINT "Please Enter a number: "
+	READ x
+	PRINT "Please Enter another number: "
+	READ y
+	IF x > y THEN SET z:= x
+	ELSE SET z:= y
+	ENDIF
+END

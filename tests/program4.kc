@@ -1,0 +1,16 @@
+PROGRAM Program4
+
+DECLARE
+	STRING name
+	INTEGER num
+
+BEGIN
+	PRINT "Please Enter your name: "
+	READ name
+	PRINT "Please Enter a number : "
+	READ num
+	WHILE num > 0 DO
+		PRINT name
+		SET num := num - 1
+	ENDWHILE
+END

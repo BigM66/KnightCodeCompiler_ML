@@ -1,0 +1,32 @@
+PROGRAM Program5
+
+DECLARE
+    INTEGER counter
+	INTEGER x
+    INTEGER y
+    STRING word
+	
+
+BEGIN
+	PRINT "Enter a word: "
+	READ word
+	counter SET w := 0
+	
+	WHILE counter < 10 DO
+		PRINT word
+		SET counter := counter + 1
+	ENDWHILE
+
+    SET x := 10
+
+    PRINT "Enter an integer for y"
+    READ y
+
+    PRINT "The bigger number is:"
+    IF y<x THEN 
+        PRINT x
+    ELSE
+        PRINT y 
+    ENDIF
+
+END
